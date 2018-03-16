@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:elevation="30dp"
+        card_view:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#CFD8DC">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="5dp"
+                android:text="Request:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView21"
+                android:layout_marginStart="7dp"
+                android:layout_toEndOf="@+id/textView21"
+                android:text="TextView"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView21"
+                android:layout_below="@+id/textView21"
+                android:layout_marginTop="9dp"
+                android:text="Price:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView23"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/textView23"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView24"
+                android:layout_marginStart="85dp"
+                android:layout_toEndOf="@+id/textView24"
+                android:text="Tip:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView25"
+                android:layout_marginStart="11dp"
+                android:layout_toEndOf="@+id/textView25"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView23"
+                android:layout_below="@+id/textView23"
+                android:layout_marginTop="9dp"
+                android:text="Address:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView27"
+                android:layout_alignStart="@+id/textView22"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView27"
+                android:layout_below="@+id/textView27"
+                android:layout_marginTop="8dp"
+                android:text="City:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView30"
+                android:layout_alignTop="@+id/textView30"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/textView30"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView31"
+                android:layout_alignTop="@+id/textView30"
+                android:layout_marginStart="28dp"
+                android:layout_toEndOf="@+id/textView31"
+                android:text="Date:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView32"
+                android:layout_toEndOf="@+id/textView32"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView26"
+                android:layout_alignTop="@+id/textView33"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="35dp"
+                android:text="Time:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView34"
+                android:layout_toEndOf="@+id/textView34"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

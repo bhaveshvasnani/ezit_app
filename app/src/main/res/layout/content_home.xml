@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/take04"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="brav0.ezit_app.Home"
+    tools:showIn="@layout/app_bar_home">
+
+    <android.support.v7.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sv"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/sv"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/recycle"
+                android:layout_below="@+id/view"></android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+</RelativeLayout>

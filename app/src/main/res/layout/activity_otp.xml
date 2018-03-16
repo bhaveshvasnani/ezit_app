@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/actionModeSplitBackground"
+    tools:context="brav0.ezit_app.otp">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="25dp"
+        android:text="Enter the One Time Password (OTP) sent on the mobile number for verification"
+        android:textColor="@color/dot_active_slides"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <com.msg91.sendotp.sample.CountrySpinner
+        android:id="@+id/spinner"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btn_opt_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/num"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:textColor="@color/dot_active_slides"
+        android:textColorHint="@color/dot_active_slides" />
+</RelativeLayout>

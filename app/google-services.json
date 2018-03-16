@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "213110976932",
+    "firebase_url": "https://bustling-art-169317.firebaseio.com",
+    "project_id": "bustling-art-169317",
+    "storage_bucket": "bustling-art-169317.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213110976932:android:d026f53a690ef93c",
+        "android_client_info": {
+          "package_name": "brav0.ezit_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213110976932-1ieo23s91sj8vi081kjeeq96ia586d58.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "213110976932-ftvseosaprl0mb3gbh30pep75vpiosjb.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "213110976932-k4hp1s07c4sig5v42msa6k6848kk06od.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "brav0.ezit_app",
+            "certificate_hash": "79b19089f2db59b57ca435b880a167fa846fe07e"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQWxrapWwK3VlQ8bkFWiQi433uUvn647w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213110976932-1ieo23s91sj8vi081kjeeq96ia586d58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    tools:context="brav0.ezit_app.faq">
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="match_parent">
+
+            <TextView
+        android:id="@+id/qus1"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+                android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is Ezit?"
+                android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:id="@+id/ans1"
+        android:textColor="#ffffff"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ezit is a free license software that can be used to post request of things that you require. If anyone is nearby a store they can accept your request and deliever it to you for a amount fixed by consent of both parties beforehand."
+        />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/colorAccent" />
+
+    <TextView
+        android:id="@+id/que2"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I have technical problem, who do I contact?"
+        />
+
+    <TextView
+        android:id="@+id/ans2"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:text="For any technical issue user, can mail their queries to the technical team of Ezit team BRAV.0 at our email theonlybrav.0team@gmail.com and we will try to resolve your problems efficiently and quickly."
+        />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/colorAccent" />
+
+    <TextView
+        android:id="@+id/que3"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Can I delete my request once posted?"
+        />
+
+    <TextView
+        android:id="@+id/ans3"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:text="Yes.... The request once posted can be easily deleted before it is accepted. After the request is accepted and confirmed it can not be deleted."
+        />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/colorAccent" />
+
+    <TextView
+        android:id="@+id/qus4"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What language are available?"
+        />
+
+    <TextView
+        android:id="@+id/ans4"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Currently Ezit is only avalible in English. We are currently working on providing Ezit in regional languages to ease the experience of our users who are more profitient in their regional language."/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/colorAccent" />
+
+            <TextView
+                android:id="@+id/qus5"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How do I use chat feature?"
+                />
+
+            <TextView
+                android:id="@+id/ans5"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:text="Chat feature only unlocks after the request posted by the user is accepted by another user. Both parties can then have a one on one chat in which they can discuss the terms of the transfer of goods and come on an agreement."
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/colorAccent" />
+
+            <TextView
+                android:id="@+id/qus6"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text="Is Ezit free?"
+                />
+
+            <TextView
+                android:id="@+id/ans6"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:layout_height="wrap_content"
+                android:text="Ezit is completly free to use app that can be downloaded from google play store without any payment. If you were charged for it by any website or a person then help us by issuing a complaint against the party and kindly demand your money back."
+                android:layout_marginTop="5dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/colorAccent" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

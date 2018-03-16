@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Ezit</string>
+    <string name="s2a">Just join Ezit and fulfill requests and tip value above the item value.</string>
+    <string name="s2b">Earn some extra</string>
+    <string name="s3a">Chat</string>
+    <string name="s3b">Chat easily inside the app when either your request is accepted or you accept one.</string>
+    <string name="s1a">Exhausted</string>
+    <string name="s1b">No worries. Ezit is always there to ease your daily tasks.</string>
+    <string name="s3c">Payment</string>
+    <string name="s2c">Earnings</string>
+    <string name="s1c">Intro</string>
+    <string name="m1">NEXT</string>
+    <string name="m2">SKIP</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="l1">Name</string>
+    <string name="l2">Username</string>
+    <string name="l3">Mobile Number</string>
+    <string name="l4">Email Address</string>
+    <string name="l5">Password</string>
+    <string name="l6">Sign Up</string>
+    <string name="lOR">Or</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

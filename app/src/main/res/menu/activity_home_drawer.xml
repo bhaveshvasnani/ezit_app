@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first"
+            android:icon="@drawable/ic_directions_run_black_24dp"
+            android:title="My Activity" />
+        <item
+            android:id="@+id/nav_second"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_third"
+            android:icon="@drawable/ic_contact_mail_black_24dp"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_fourth"
+            android:icon="@drawable/ic_forum_black_24dp"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_settings_power_black_24dp"
+            android:title="Log Out" />
+    </group>
+
+</menu>

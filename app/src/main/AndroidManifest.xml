@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="brav0.ezit_app">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_new"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main_Activity"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".otp"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Request"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Home" />
+        </activity>
+        <activity android:name=".Chat"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
